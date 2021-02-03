@@ -1,0 +1,9 @@
+controller_list:
+  - name: fake_leg_controller
+    joints:
+      - shoulder1_joint
+      - shoulder2_joint
+      - knee_joint
+initial:  # Define initial robot poses.
+  - group: leg
+    pose: straight
